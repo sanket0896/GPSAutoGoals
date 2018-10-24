@@ -1,0 +1,14 @@
+{
+  "name": "gpsautogoals",
+  "version": "1.0.0",
+  "description": "Automatically create and update goals in http://ourgoalplan.com website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanket Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.9.0"
+  }
+}
