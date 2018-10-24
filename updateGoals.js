@@ -61,3 +61,5 @@ const updateGoals = async (page) => {
 const closeBrowser = async (browser) => {
   await browser.close();
 };
+
+loginAndDoAction("update");
