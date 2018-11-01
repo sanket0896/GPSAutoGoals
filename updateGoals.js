@@ -16,7 +16,7 @@ const CLICKING_DELAY = 250;
 const loginAndDoAction = async (action) => {
 
   const browser = await puppeteer.launch({
-      headless: false
+      headless: true
   });
   const page = await browser.newPage();
 
